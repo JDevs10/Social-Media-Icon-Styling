@@ -66,3 +66,30 @@ header h1{
 	line-height: 1.4rem;
 	padding-right: 30px;
 }
+
+.social a:before, .social a:after{
+	width: 80px;
+	height: 200px;
+	position: absolute;
+	text-indent: 0;
+	padding: 90px 0 0 25px;
+	display: block;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900px;
+	color: #fff;
+}
+
+.social a:after{
+	font-size: 48px;
+	padding-left: 20px;
+	padding-top: 80px;
+}
+
+/* Add icons*/
+.facebook a:before, .facebook a:after{
+	content: '\f09a'
+}
+
+.facebook a:after{
+	background-color: blue;
+}
